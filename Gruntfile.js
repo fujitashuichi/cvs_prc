@@ -9,8 +9,8 @@ module.exports = function(grunt) {
 		sass: {
 			styles: {
 				files: [{
-					src: 'src/scss/chaashuuu.scss',
-					dest: 'src/dist/css/chaashuuu.css'
+					src: 'src/scss/main.scss',
+					dest: 'src/dist/css/main.css'
 				}]
 			}
 		},
@@ -20,16 +20,16 @@ module.exports = function(grunt) {
 					browsers: ['last 2 version', 'ie 8']
 				},
 				files: [{
-					src: 'src/dist/css/chaashuuu.css',
-					dest: 'index_chaashuuu/css/chaashuuu.css'
+					src: 'src/dist/css/main.css',
+					dest: 'main/css/main.css'
 				}]
 			}
 		},
 		cssmin: {
 			styles: {
 				files: [{
-					src: 'index_chaashuuu/css/chaashuuu.css',
-					dest: 'index_chaashuuu/css/chaashuuu-min.css'
+					src: 'main/css/main.css',
+					dest: 'main/css/main-min.css'
 				}]
 			}
 		},
