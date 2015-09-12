@@ -9,8 +9,8 @@ module.exports = function(grunt) {
 		sass: {
 			styles: {
 				files: [{
-					src: 'src/scss/main.scss',
-					dest: 'src/dist/css/main.css'
+					src: './src/scss/main.scss',
+					dest: './src/dist/css/main.css'
 				}]
 			}
 		},
@@ -20,31 +20,31 @@ module.exports = function(grunt) {
 					browsers: ['last 2 version', 'ie 8']
 				},
 				files: [{
-					src: 'src/dist/css/main.css',
-					dest: 'main/css/main.css'
+					src: './src/dist/css/main.css',
+					dest: './main/css/main.css'
 				}]
 			}
 		},
 		cssmin: {
 			styles: {
 				files: [{
-					src: 'main/css/main.css',
-					dest: 'main/css/main-min.css'
+					src: './main/css/main.css',
+					dest: './main/css/main-min.css'
 				}]
 			}
 		},
 
 		watch: {
 			sass: {
-				files: ['src/scss/**/*.scss'],
+				files: ['./src/scss/**/*.scss'],
 				tasks: 'sass'
 			},
 			autoprefixer: {
-				files: ['src/dist/css/**/*.css'],
+				files: ['./src/dist/css/**/*.css'],
 				tasks: 'autoprefixer'
 			},
 			cssmin: {
-				files: ['index_chaashuuu/css/chaashuuu.css'],
+				files: ['./main/css/main.css'],
 				tasks: 'cssmin'
 			}
 		}

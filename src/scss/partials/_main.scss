@@ -10,7 +10,7 @@ main {
 	.test_box {
 		text-align: center;
 	}
-	.particle-box {
+	.draw-box {
 		position: relative;
 		#world {
 			display: block;
@@ -28,14 +28,4 @@ main {
 			left: 16px;
 		}
 	}
-}
-
-// ドットインストールの
-.test-text-add {
-	font-size: 2em;
-	margin-bottom: 1em;
-}
-
-button {
-	background: $bg;
 }
