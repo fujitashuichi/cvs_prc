@@ -54,7 +54,7 @@ main {
     position: relative; }
     main .draw-box #world {
       display: block;
-      background: url("../img/bg-01.png");
+      background: #000;
       margin: 0 auto;
       overflow: hidden; }
     main .draw-box #fps {

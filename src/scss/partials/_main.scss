@@ -14,7 +14,7 @@ main {
 		position: relative;
 		#world {
 			display: block;
-			background: url('../img/bg-01.png');
+			background: $bg;
 			margin: 0 auto;
 			overflow: hidden;
 		}
