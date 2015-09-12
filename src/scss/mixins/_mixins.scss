@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+//--------------------------------!!!
+// Mixin
+//--------------------------------¡¡¡
+@mixin scale($widscl, $heiscl) {
+	width: $widscl;
+	height: $heiscl;
+}
+
+@mixin padding($pd) {
+	padding-top: $pd;
+	padding-bottom: $pd;
+}
+
+@mixin bar-clock($barH, $barC, $barO) {
+	height: $barH;
+	margin: 0 auto;
+	background: $barC;
+	border-radius: $barH / 2;
+	opacity: $barO;
+}
+
+//--------------------------------!!!
+// Variable
+//--------------------------------¡¡¡
+$fc: #FFF;
+$bg: #000;
+
+$scl: 360px;
+$len: 160px;
+$thi: 1px;
+
+$clc-w: 200px;
+$clc-h: $clc-w;
+$bd: 1px solid $fc;

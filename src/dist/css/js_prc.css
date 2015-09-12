@@ -1,0 +1,154 @@
+/* Scss Document */
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
+* {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 0;
+  text-decoration: none;
+  font-family: 'Source Code Pro', Monaco, YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
+
+body {
+  background: #000; }
+
+body, main, section, article, div, h1, h2, h3, h4, h5, p, a, ul, li, figure, figcaption, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+ul li {
+  list-style: none; }
+
+img {
+  outline: none; }
+
+header {
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: #222222; }
+  header h1 {
+    font-size: 3em;
+    text-align: center; }
+
+footer {
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: #222222; }
+  footer p {
+    font-size: 1em;
+    text-align: center; }
+
+main {
+  min-height: 720px;
+  width: 72%;
+  margin: 0 auto; }
+  main section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border: 1px solid #FFF; }
+  main .test_box {
+    text-align: center; }
+  main .particle-box {
+    position: relative; }
+    main .particle-box #world {
+      display: block;
+      background: url("../img/bg-01.png");
+      margin: 0 auto;
+      overflow: hidden; }
+    main .particle-box #fps {
+      width: 4em;
+      height: auto;
+      display: inline-block;
+      border: 1px solid #FFF;
+      text-align: center;
+      position: absolute;
+      top: 16px;
+      left: 16px; }
+
+.test-text-add {
+  font-size: 2em;
+  margin-bottom: 1em; }
+
+button {
+  background: #000; }
+
+#analogClock {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 360px;
+  height: 360px; }
+  #analogClock #clockBody {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    background: #222222; }
+  #analogClock #clockHours {
+    width: 1px;
+    height: 96px;
+    background: magenta; }
+  #analogClock #clockMinutes {
+    width: 1px;
+    height: 128px;
+    background: cyan; }
+  #analogClock #clockSeconds {
+    width: 1px;
+    height: 160px;
+    background: #FFF; }
+  #analogClock #clockCover {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #999; }
+  #analogClock .c_body {
+    position: absolute; }
+  #analogClock .c_needle {
+    position: absolute;
+    top: 180px;
+    left: 180px;
+    transform-origin: 50% 0;
+    border-radius: 1px; }
+  #analogClock .c_cover {
+    position: absolute;
+    top: 178px;
+    left: 178px; }
+
+#digitalClock {
+  font-size: 2em;
+  text-align: center; }
+
+#barClock {
+  position: relative; }
+  #barClock #barHours {
+    height: 32px;
+    margin: 0 auto;
+    background: #FCC;
+    border-radius: 16px;
+    opacity: 0.33; }
+  #barClock #barMinutes {
+    height: 32px;
+    margin: 0 auto;
+    background: #CFC;
+    border-radius: 16px;
+    opacity: 0.33;
+    margin-top: -16px; }
+  #barClock #barSeconds {
+    height: 32px;
+    margin: 0 auto;
+    background: #CCF;
+    border-radius: 16px;
+    opacity: 0.33;
+    margin-top: -16px; }
+
+#calcurator tr td {
+  color: #666666;
+  text-align: center;
+  border: 1px solid #FFF; }
+  #calcurator tr td input {
+    width: 200px;
+    height: 200px;
+    background: #333333; }
+
+/*# sourceMappingURL=js_prc.css.map */

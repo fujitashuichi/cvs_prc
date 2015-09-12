@@ -1,0 +1,15 @@
+@charset "UTF-8";
+#calcurator {
+	tr{
+		td{
+			color: $fc - #999;
+			text-align: center;
+			border: $bd;
+			input {
+				width: $clc-w;
+				height: $clc-h;
+				background: $bg + #333;
+			}
+		}
+	}
+}
