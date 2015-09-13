@@ -46,8 +46,7 @@ main {
   margin: 0 auto; }
   main section {
     padding-top: 32px;
-    padding-bottom: 32px;
-    border: 1px solid #FFF; }
+    padding-bottom: 32px; }
   main .test_box {
     text-align: center; }
   main .draw-box {
@@ -56,13 +55,5 @@ main {
       display: block;
       background: #000;
       margin: 0 auto;
-      overflow: hidden; }
-    main .draw-box #fps {
-      width: 4em;
-      height: auto;
-      display: inline-block;
-      border: 1px solid #FFF;
-      text-align: center;
-      position: absolute;
-      top: 16px;
-      left: 16px; }
+      overflow: hidden;
+      border: 1px solid #FFF; }

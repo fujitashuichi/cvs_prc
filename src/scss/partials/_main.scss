@@ -5,7 +5,6 @@ main {
 	margin: 0 auto;
 	section {
 		@include padding(32px);
-		border: $bd;
 	}
 	.test_box {
 		text-align: center;
@@ -17,15 +16,7 @@ main {
 			background: $bg;
 			margin: 0 auto;
 			overflow: hidden;
-		}
-		#fps {
-			@include scale(4em, auto);
-			display: inline-block;
 			border: $bd;
-			text-align: center;
-			position: absolute;
-			top: 16px;
-			left: 16px;
 		}
 	}
 }
