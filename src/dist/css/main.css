@@ -30,6 +30,14 @@ header {
   header h1 {
     font-size: 3em;
     text-align: center; }
+  header .aa {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 0.6em;
+    text-align: center;
+    line-height: 0.8em;
+    overflow: hidden; }
 
 footer {
   width: 100%;
