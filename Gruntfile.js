@@ -34,6 +34,20 @@ module.exports = function(grunt) {
 			}
 		},
 
+		// js
+		babel: {
+			options: {
+				sourceMap: false
+			},
+			dist: {
+				files: [{
+					src: './src/es6/test03.js',
+					dest: './main/js/test03.js'
+				}]
+			}
+		},
+
+		// watch
 		watch: {
 			sass: {
 				files: ['./src/scss/**/*.scss'],
