@@ -33,7 +33,6 @@ module.exports = function(grunt) {
 				}]
 			}
 		},
-
 		// js
 		babel: {
 			options: {
@@ -41,8 +40,8 @@ module.exports = function(grunt) {
 			},
 			dist: {
 				files: [{
-					src: './src/es6/test03.js',
-					dest: './main/js/test03.js'
+					src: './src/es6/**/*.js',
+					dest: './src/dist/js/<%= pkg.name %>.js'
 				}]
 			}
 		},
@@ -60,6 +59,11 @@ module.exports = function(grunt) {
 			cssmin: {
 				files: ['./main/css/main.css'],
 				tasks: 'cssmin'
+			},
+			// js
+			babel: {
+				files: ['./src/es6/**/*.js'],
+				tasks: 'babel'
 			}
 		}
 	});
