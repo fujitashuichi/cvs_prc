@@ -44,6 +44,7 @@ window.onload = function() {
 			//ctx.strokeStyle = getColorHSV(i / MAX * 360 + n * 4000, 0.25);
 			ctx.fillStyle = getColorHSV(i / MAX * 360 + n * 7200, 0.25);
 			ctx.strokeStyle = "rgba(255,255,255,0.25)";
+			//ctx.strokeStyle = getColorHSV(i / MAX * 360 + n * 7200, 0.25);
 			//ctx.fillStyle = "rgba(255,255,255,0.25)";
 
 			// draw line
