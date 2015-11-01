@@ -2,4 +2,4 @@
 
 Test canvas.
 
-new name
+new name.
